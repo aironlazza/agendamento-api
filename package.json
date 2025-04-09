@@ -1,0 +1,19 @@
+{
+  "name": "agendamento-api",
+  "version": "1.0.0",
+  "description": "API utilizada para realizar a comunicação entre o banco de dados e o site que exibe a fatura dos agendamentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aironlazza/agendamento-api.git"
+  },
+  "author": "Airon Lazzaretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aironlazza/agendamento-api/issues"
+  },
+  "homepage": "https://github.com/aironlazza/agendamento-api#readme"
+}
