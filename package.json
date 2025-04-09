@@ -4,7 +4,8 @@
   "description": "API utilizada para realizar a comunicação entre o banco de dados e o site que exibe a fatura dos agendamentos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node --watch index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/aironlazza/agendamento-api/issues"
   },
-  "homepage": "https://github.com/aironlazza/agendamento-api#readme"
+  "homepage": "https://github.com/aironlazza/agendamento-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  }
 }
